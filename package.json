@@ -1,0 +1,18 @@
+{
+  "name": "dsh-law-verify-gate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "法条核验闸门 —— AI 法律文书防幻觉：对文本中的法条引用逐条比对官方库（56,291 条 + 元典智库双源），四态判决（已验证/未找到/已修改/已失效）+ 权威原文。Einstein-OS 出品。",
+  "main": "./src/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawcraft/dsh-law-verify-gate.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
